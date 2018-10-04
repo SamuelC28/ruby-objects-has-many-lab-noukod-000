@@ -8,7 +8,7 @@ class Song
     @name = name
     @artist = artist
     @@all << self
-    # return nil if !artist.include?(song)
+  
   end
 
   def artist_name
